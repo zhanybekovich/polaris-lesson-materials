@@ -1,0 +1,95 @@
+/* p {
+  color: yellow;
+}
+
+.first {
+  color: blue;
+}
+
+header p {
+  color: green;
+}
+
+
+header p strong {
+  color: orange;
+}
+
+#big {
+  font-size: 60px;
+}
+
+
+.green {
+  color: green;
+  font-size: 45px;
+}
+
+* {
+  font-size: 45px;
+}
+
+header * {
+  font-size: 10px;
+} */
+
+/* [type="text"] {
+  background-color: yellow;
+}
+
+[type="submit"] {
+  background-color: yellow;
+} */
+
+/* p+p {
+  background-color: red;
+}
+
+header a+a {
+  margin-left: 50px;
+} */
+
+header a {
+  display: inline-block;
+  background-color: red;
+  padding: 15px 30px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 25px;
+  transition: all .9s;
+  outline: none;
+}
+
+
+header a:hover {
+  background-color: yellow;
+  color: red;
+}
+
+
+header a:focus {
+  background-color: blue;
+  color: black;
+}
+
+h1 {
+  padding-left: 50px;
+  position: relative;
+  ;
+}
+
+
+h1::before {
+  position: absolute;
+  left: 0;
+  top: 20px;
+  content: "";
+  width: 40px;
+  height: 40px;
+  background-color: red;
+  display: block;
+}
+
+h1::after {
+  content: "***";
+}
