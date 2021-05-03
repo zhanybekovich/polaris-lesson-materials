@@ -1,5 +1,5 @@
 # Polaris Lesson Materials
 
-Материалы уроков для Polaris
+Материалы уроков для Polaris.
 
 
